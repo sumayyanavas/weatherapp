@@ -1,6 +1,6 @@
 const request = require('request');
 console.log("running geolocation")
-var geolocations = (uri,callback) => {
+var geolocations = (uri, callback) => {
     console.log("running geolocationfdsfdsfds");
     //uri += "?address=" + address + "&key=" +key;
     
@@ -21,8 +21,10 @@ var geolocations = (uri,callback) => {
     );
 
 }
+var name = 'sumayya';
 module.exports={
-    geolocations
+    geolocations,
+    name
 }
 
 
